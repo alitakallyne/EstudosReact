@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cor e Imagen de Fundo</title>
+  <style  type="text/css">
+    h1{
+      /*background-color: #f2f2f2 ;
+      background-image: url('imagens/yoshi.png');*/
+      /*repeat-x,repeat-y, repeat, no-repeat*/
+      background-repeat: repeat-x;
+      /*fixed, scroll*/
+      background-attachment: scroll; 
+      /*primeiro valor : left,center, right
+       segundo valor: top,center,bottom*/
+      background-position: center center;
+    }
+    .fundo{
+      background:blue url('imagens/yoshi.png') no-repeat scroll center top;
+    }
+  </style>
+</head>
+<body class="fundo">
+  <h2>Conteudo de Fundo</h2>
+</body>
+</html>
