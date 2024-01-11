@@ -5,10 +5,32 @@
   <title>Tamanho Texto</title>
 
   <style type="text/css">
-    
+    /*
+    px -> tamanho fixo
+    % -> tamanho relativo 
+    em -> tamanho relativo ao container pai
+    */
+    div{
+      font-size: 30px;
+    }
+    .texto{
+      font-size: 2em;
+    }
+    .texto{
+      font-size: 0.5em;
+    }
   </style>
 </head>
 <body>
+  <div>
+    <p class="texto">
+      Texto 1 : Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id sem gravida, consectetur augue ut, molestie lorem. Donec condimentum erat at sapien volutpat malesuada. Proin id metus sed elit malesuada viverra sit amet a velit. 
+    </p>
+    <p class="texto2">
+      Texto 2 : Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id sem gravida, consectetur augue ut, molestie lorem. Donec condimentum erat at sapien volutpat malesuada. Proin id metus sed elit malesuada viverra sit amet a velit. 
+    </p>
+  </div>
+
   
 </body>
 </html>
