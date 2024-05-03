@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Posicionamentos (static, relative, absolute e fixed)</title>
+		<meta charset="utf-8">
+		
+		<style type="text/css">
+
+			body {
+				background: #007fc7;
+			}
+
+	
+			#container{
+				background: #FFF;
+				width: 800px;
+				margin: 10px auto; 
+				/*auto posicionamento atomatico */
+				padding: 10px;
+				
+				/*position: relative; Elementos podem ser posicionados com a propriedade relativa em relação a o containetr da Div*/
+			}
+
+			h1 {
+				/*position: static;
+				 Posicionamento padrão*/
+			}
+
+			p {
+				width:400px;
+			}
+
+			.fixed{
+				border: 1px solid violet;
+				background: #f2f2f2;
+				position: fixed;
+				margin: 0px;
+				left: 0px;
+				bottom: 0px;
+			}
+
+			.absolute{
+				border: 1px solid violet;
+				background: #f2f2f2;
+				position: absolute;
+				top :80px;
+				right: 10px;
+			}
+			.relative {
+				border: 1px solid red;
+				position: relative;
+				/* relative : Relativo ao posição inicial, ai movimenta o elemento 
+				top, right, bottom e left */
+				top: 0px;
+				left: 0px;
+				right: 20px;
+				bottom: -20px;
+			}
+
+		</style>
+		
+	</head>
+	<body>
+
+		<div id="container">
+			
+			<h1>Posicionamentos</h1>
+
+			<p>
+				P1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at porta nibh. Ut posuere ex a lectus facilisis maximus. Proin ut porttitor lacus, in vulputate risus.
+			</p>
+
+			<p class="relative">
+				P2 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at porta nibh. Ut posuere ex a lectus facilisis maximus. Proin ut porttitor lacus, in vulputate risus.
+			</p>
+
+			<p class="absolute">
+				P3 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at porta nibh. Ut posuere ex a lectus facilisis maximus. Proin ut porttitor lacus, in vulputate risus.
+			</p>
+
+			<p>
+				P4 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at porta nibh. Ut posuere ex a lectus facilisis maximus. Proin ut porttitor lacus, in vulputate risus.
+			</p>
+
+			<p class="fixed">
+				P5 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at porta nibh. Ut posuere ex a lectus facilisis maximus. Proin ut porttitor lacus, in vulputate risus.
+			</p>
+			<p>
+				P6 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at porta nibh. Ut posuere ex a lectus facilisis maximus. Proin ut porttitor lacus, in vulputate risus.
+			</p>
+			<p>
+				P7 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at porta nibh. Ut posuere ex a lectus facilisis maximus. Proin ut porttitor lacus, in vulputate risus.
+			</p>
+			<p>
+				P8 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at porta nibh. Ut posuere ex a lectus facilisis maximus. Proin ut porttitor lacus, in vulputate risus.
+			</p>
+			<p>
+				P8 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at porta nibh. Ut posuere ex a lectus facilisis maximus. Proin ut porttitor lacus, in vulputate risus.
+			</p>
+			<p>
+				P8 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at porta nibh. Ut posuere ex a lectus facilisis maximus. Proin ut porttitor lacus, in vulputate risus.
+			</p>
+			<p>
+				P8 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at porta nibh. Ut posuere ex a lectus facilisis maximus. Proin ut porttitor lacus, in vulputate risus.
+			</p>
+
+			<p>
+				P8 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at porta nibh. Ut posuere ex a lectus facilisis maximus. Proin ut porttitor lacus, in vulputate risus.
+			</p>
+
+		</div>
+
+	</body>
+
+</html>
